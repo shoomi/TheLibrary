@@ -1,4 +1,4 @@
-package com.somecuitears;
+package ua.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

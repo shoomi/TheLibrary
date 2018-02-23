@@ -8,7 +8,7 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="com.somecuitears"/>   <!--перевірити чи співпадає шлях!!! вказуємо яку папку сканувати на наявність контроллерів-->
+    <context:component-scan base-package="ua.web.controller"/>   <!--перевірити чи співпадає шлях!!! вказуємо яку папку сканувати на наявність контроллерів-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views/"/>  <!--звідки брати jsp для відсилання на сайт-->
         <property name="suffix" value=".jsp"/>    <!--в папці view мають лежати аналоги наших html сторінок або їх частин доступ до яких буде тільки з контроллера-->
