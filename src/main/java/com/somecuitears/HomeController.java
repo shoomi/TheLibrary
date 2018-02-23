@@ -20,4 +20,5 @@ public class HomeController {
         ModelAndView modelAndView = new ModelAndView("anotherpage");
         return modelAndView;
     }
+
 }
