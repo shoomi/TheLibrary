@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+</beans>
+
+        <!--Defines the resources that are available to all applications, all servlet-->
+        <!--Add support for annotations (@ Annotation-based configuration)-->
+        <!--<context:annotation-config />-->
+
+        <!--Define the folder, where we will automatically search for beans components-->
+
+        <!--<context:component-scan  basepackage="com.softserve.edu.dao” />-->
+        <!--<context:component-scan basepackage="com.softserve.edu.service“ />-->
+
+        <!--File  with resources configuration for working with data (Data Access Resources)-->
+        <!--<import resource="data.xml" />-->
+
+        <!--Connecting file  with security configuration-->
+        <!--<import resource="security.xml" />-->
