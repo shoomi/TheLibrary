@@ -8,6 +8,9 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"/>
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"/>
+
     <context:component-scan base-package="ua.web.controller"/>   <!--перевірити чи співпадає шлях!!! вказуємо яку папку сканувати на наявність контроллерів-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views/"/>  <!--звідки брати jsp для відсилання на сайт-->
